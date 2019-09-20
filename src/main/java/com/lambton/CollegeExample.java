@@ -14,9 +14,9 @@ public class CollegeExample {
             s1.setStudentID(1);
             s1.setFirstName("Rizul");
             s1.setLastName("Goyal");
-            s1.setMarks1(30);
-            s1.setMarks2(40);
-            s1.setMarks3(40);
+            s1.setMarks1(95);
+            s1.setMarks2(60);
+            s1.setMarks3(90);
             s1.setMarks4(75);
             s1.setMarks5(85);
 
@@ -35,7 +35,6 @@ public class CollegeExample {
             s1.generateResult();
                 System.out.println("Total marks are " + s1.total);
                 System.out.println("Total Percentage is " + s1.percentage);
-                System.out.println(s1.result);
 
 
 

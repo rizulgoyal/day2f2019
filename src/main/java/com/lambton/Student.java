@@ -62,6 +62,7 @@ public class Student {
     public void generateResult() {
         if (determimeResult()) {
             System.out.println("PASS");
+
           if(percentage<=49) {
               result="The Grade is F";
 
@@ -75,11 +76,27 @@ public class Student {
           {
               result="The Grade is C-" ;
           }
-                else
+          else if (percentage<=70)
           {
-              result = "The grade is A";
-
+              result="The Grade is C" ;
           }
+          else if (percentage<=78)
+          {
+              result="The Grade is B" ;
+          }
+          else if (percentage<=83)
+          {
+              result="The Grade is A-" ;
+          }
+          else if (percentage<=90)
+          {
+              result="The Grade is A" ;
+          }
+          else if (percentage<=100)
+          {
+              result="The Grade is A+" ;
+          }
+            System.out.println(result);
           }
 
 
